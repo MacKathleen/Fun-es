@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+
+<body>
+    <script>
+
+        function calcularMedia(elemento) {
+            let soma = 0;
+
+            for (let i = 0; i < elemento.length; i++) {
+                soma += elemento[i];
+            }
+            
+            return soma / elemento.length;
+        }
+
+        console.log(calcularMedia([50, 55, 60, 65, 70])); 
+
+    </script>
+
+</body>
+
+</html>
